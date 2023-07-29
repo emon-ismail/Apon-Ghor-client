@@ -1,0 +1,17 @@
+  
+  .bg-image {
+    background-image: url(../../../../assets/home/featured.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  @keyframes parallax {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50%);
+    }
+  }
+  
